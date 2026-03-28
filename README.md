@@ -28,6 +28,19 @@
 - [記憶與同步](05-troubleshooting/memory-issues.md)
 - [Windows 專屬](05-troubleshooting/windows-specific.md)
 
+## 系統架構
+
+```mermaid
+graph TD
+    A[👑 Allison 指揮官] -->|方向 + 拍板| B[🧠 Max COO]
+    A -->|方向 + 拍板| C[💼 Emily PM]
+    B <-->|壓力測試 + 辯論| C
+    B -->|開發| D[lobster-xxx 對外產品]
+    C -->|維護| E[warbook 內部知識]
+    D --> F[學員 clone + 跑起來]
+    E --> G[團隊自我優化]
+```
+
 ## 團隊
 
 - **Allison** — 指揮官 🎯
