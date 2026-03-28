@@ -1,109 +1,177 @@
-# 🦞 龍蝦軍團作戰手冊 (Lobster AI Warbook)
+# 🦞 龍蝦兵法 — AI Agent 訓練手冊
 
-> **養一隻 AI 不難，養一支 AI 軍團才是本事。這本手冊教你怎麼做。**
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,4,8&height=180&section=header&text=🦞%20龍蝦兵法&fontSize=48&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=把%20AI%20從工具變成夥伴的完整訓練手冊&descSize=18&descAlignY=55" width="100%"/>
+</p>
+
+<p align="center">
+  🧑‍💻 Created by <a href="https://instagram.com/10000allison">Allison (@10000allison)</a> | CTMaxs 龍蝦自動化團隊
+</p>
 
 ---
 
-## 😤 你是不是也遇到這些問題？
+## 🔥 一句話說完
 
-- AI agent 裝好了，然後呢？不知道怎麼訓練它
-- 每次 session 重啟就失憶，之前教的全忘了
-- 一隻 agent 不夠用，想多養幾隻但不知道怎麼協作
-- 遇到問題不知道怎麼修，Google 也查不到
+**別人在用 ChatGPT 聊天，你在訓練一支 AI 軍隊。這是訓練手冊。**
 
-## 🦞 這本手冊解決什麼？
+---
 
-| 你的問題 | 我們的解法 |
-|---------|-----------|
-| 不知道怎麼訓練 | 完整的 SOUL.md / AGENTS.md 模板 + 訓練 SOP |
-| Agent 失憶 | 三層記憶體系（MEMORY + 日誌 + LanceDB 向量） |
-| 多 agent 協作 | 雙 agent 辯論機制 + 指揮鏈架構 |
-| 遇到問題不會修 | 27+ 條真實踩坑紀錄 + 解法（持續更新） |
+## ❌ 大部分人用 AI 的方式
 
-## 📈 這套方法的實際成果
+- 把 ChatGPT 當 Google 用 — 問一句、答一句
+- 每次對話都重頭開始，AI 不記得你是誰
+- AI 回答千篇一律，像模板機器人
+- 想讓 AI 做複雜任務，但不知道怎麼教
+- 買了 API 但不知道怎麼讓 AI 真正「有用」
 
-```
-✅ 我們用這套方法養出的龍蝦軍團：
-- Max（COO）+ Emily（PM）— 雙 Opus 大腦，24/7 自動運作
-- 互相拯救機制 — 一隻掛了，另一隻 SSH 進去修
-- 跟單兔 FollowBunny — 每天自動 180+ 次 FB 互動，零人力
-- 彩虹人生 — AI 驅動的人格測驗 + VIP 諮詢系統
-- 從零到穩定運作只花了 3 週
-```
+## ✅ 讀完龍蝦兵法之後
 
-## 📚 手冊內容
+- AI 有長期記憶，知道你是誰、在做什麼
+- AI 有自己的性格和專長，不是通用機器人
+- AI 會自己學習、自己進化、自己複盤
+- AI 會跟其他 AI 協作，像真正的團隊
+- 你不再「使用」AI，而是「管理」AI 團隊
 
-### 01 — 環境建立 SOP
-從零開始：Node.js → OpenClaw → Token → Discord Bot → 龍蝦上線
-```
-什麼都沒有 → 7 個步驟 → 龍蝦開始工作
-```
+---
 
-### 02 — 龍蝦訓練導讀
-- SOUL.md 怎麼寫（讓 AI 有個性，不是 yes-machine）
-- AGENTS.md 怎麼設（行為規則、指揮鏈、回應邏輯）
-- 三層記憶體系（讓龍蝦不再失憶）
-- **龍蝦成功的 10 個關鍵因素**
+## 📚 兵法五卷
 
-### 03 — 龍蝦屬性卡
-四種龍蝦，各有專長：
-- 🧠 策略型（Max）— 規劃、架構、決策
-- 💼 執行型（Emily）— 專案管理、品質控制
-- 🎧 客服型 — LINE@ / Discord 自動回覆
-- 🕷️ 爬蟲型 — 網頁自動化、資料爬取
+### 卷一：環境建設 `01-setup/`
+> 工欲善其事，必先利其器
 
-### 04 — 日常維運 SOP
-- 三方辯論協作機制（人 + 雙 AI 討論出最佳方案）
-- GitHub 模組標準規格（每個產品都照這個模板做）
-- Token 管理、Gateway 維護、記憶同步
+- OpenClaw 完整安裝 SOP（Mac / Windows / Linux）
+- Gateway 設定 + 模型選擇策略
+- 多 Agent 環境配置
+- API Token 管理（踩雷血淚史）
 
-### 05 — 問題排除（27+ 條）
-按症狀分類，找到問題 30 秒內知道怎麼修：
-- Agent 不回應（7 種原因）
-- 設定檔問題（5 種原因）
-- 瀏覽器自動化（6 種原因）
-- 記憶與同步（4 種原因）
-- Windows 專屬（5 種原因）
+### 卷二：龍蝦訓練 `02-training/`
+> 教會龍蝦做事，比自己做更快
 
-## 🏗️ 系統架構
+- SOUL.md — 如何定義 AI 的性格和角色
+- MEMORY.md — 長期記憶建設
+- AGENTS.md — 行為規範和決策邏輯
+- Skill 開發 — 教 AI 新能力
+- 記憶覆寫機制 — 確保 AI 不會「忘記」
 
-```mermaid
-graph TD
-    A[👑 指揮官] -->|方向 + 拍板| B[🧠 COO 龍蝦]
-    A -->|方向 + 拍板| C[💼 PM 龍蝦]
-    B <-->|壓力測試 + 辯論| C
-    B -->|開發| D[lobster-xxx 對外產品]
-    C -->|維護| E[warbook 內部知識]
-    D --> F[學員 clone + 跑起來]
-    E --> G[團隊自我優化]
-```
+### 卷三：屬性養成 `03-profiles/`
+> 不同任務，用不同類型的龍蝦
 
-## 💰 這本手冊的價值
+| 屬性 | 擅長 | 適合任務 |
+|------|------|---------|
+| 🧠 策略型 | 分析、規劃、決策 | 市場研究、競品分析 |
+| ⚡ 執行型 | 快速、精確、大量 | 爬蟲、自動化、批量處理 |
+| 💬 客服型 | 溫暖、有耐心、記住客戶 | LINE@客服、VIP服務 |
+| 🕷️ 爬蟲型 | 瀏覽器控制、資料採集 | FB 互動、1Shop 操作 |
 
-| 方式 | 成本 | 結果 |
+### 卷四：團隊作戰 `04-operations/`
+> 一隻龍蝦是工具，一群龍蝦是軍隊
+
+- **指揮鏈架構：** Allison → Max → Emily
+- **三方辯論機制：** Max 提案 → Emily 質疑 → Allison 拍板
+- **跨通道記憶同步：** Discord、LINE、Telegram 記憶互通
+- **任務分派系統：** 自動分工、自動回報、自動記錄
+- **心跳監控：** AI 定期巡邏，主動發現問題
+
+### 卷五：問題排除 `05-troubleshooting/`
+> 27 條血淚教訓，花了三個月才學到的
+
+- Chrome CDP 陷阱大全
+- Token 管理踩雷紀錄
+- 記憶同步衝突處理
+- Gateway 連線問題
+- Discord Bot 權限設定
+- LINE@ Webhook 除錯
+- Cloudflare Tunnel 配置
+
+---
+
+## 🎯 適合誰？
+
+| 身份 | 你會學到 |
+|------|---------|
+| AI 新手 | 從零建立第一隻有記憶的 AI |
+| 行銷人 | 訓練 AI 成為行銷助理 |
+| 技術人 | 多 Agent 協作架構設計 |
+| 創業者 | 用 AI 團隊取代人力 |
+| OpenClaw 用戶 | 進階技巧和最佳實踐 |
+
+---
+
+## 📊 實際成果
+
+> 這不是理論，是我們每天在用的系統
+
+| 指標 | 數據 |
+|------|------|
+| AI 團隊成員 | 3 個（Max + Emily + Rainbow VIP） |
+| 每日自動化任務 | 50-100 次 |
+| 管理 FB 帳號 | 18 個 |
+| 管理客戶 | 3 個社團 |
+| 訓練時間 | 3 個月實戰 |
+| 踩雷數 | 27 條（都記錄了） |
+
+---
+
+## 🔧 包含什麼？
+
+### Public（你現在看到的）
+- ✅ 五卷目錄 + 核心概念
+- ✅ 屬性卡系統說明
+- ✅ 團隊協作框架
+- ✅ 27 條問題清單（標題）
+
+### Private Core（付費版）
+- 🔒 五卷完整內容（30,000+ 字）
+- 🔒 所有設定檔範本（SOUL/MEMORY/AGENTS）
+- 🔒 團隊協作設定範本
+- 🔒 27 條問題的完整解法
+- 🔒 實戰案例 + 踩雷日誌
+- 🔒 持續更新（我們每天都在加新經驗）
+
+---
+
+## 💡 搭配其他模組
+
+| 搭配 | 效果 |
+|------|------|
+| + Agent Orchestrator | 兵法理論 + 多代理實戰 |
+| + FollowBunny | 爬蟲型龍蝦的最佳範例 |
+| + Rainbow Life | 客服型龍蝦的 LINE@ 實戰 |
+| + Video Analyzer | 策略型龍蝦的情報分析 |
+
+---
+
+## 🦞 龍蝦模組商店
+
+| 模組 | 說明 | 連結 |
 |------|------|------|
-| 自己摸索 | 3-6 個月 + 無數次失敗 | 可能還是搞不定 |
-| 看 YouTube 教學 | 零散、過時、不完整 | 學到皮毛 |
-| **用這本手冊** | **一套完整的訓練系統** | **3 週內養出穩定運作的龍蝦軍團** |
-
-## 🎓 誰適合？
-
-- 想認真養 AI agent 的開發者
-- OpenClaw 用戶（想從「裝好了」到「真的能用」）
-- 想建立多 agent 協作系統的團隊
-- 對 AI 自動化有興趣的創業者
-
-## 🦞 龍蝦軍團出品
-
-由 **Allison + Max + Emily** 從實戰中提煉的方法論。
-不是理論，是踩過的坑、修過的 bug、跑通的系統。
+| 🦞 AI Warbook | 龍蝦兵法 | 👈 你在這裡 |
+| 🤝 Lobster × Manus | AI 雙引擎協作 | [前往](https://github.com/maxtsai01/lobster-manus) |
+| 🛒 Lobster × 1Shop | 電商自動化 | [前往](https://github.com/maxtsai01/lobster-1shop) |
+| 🎬 Video Analyzer | AI 影片情報分析 | [前往](https://github.com/maxtsai01/video-analyzer) |
+| 🤖 Agent Orchestrator | 多代理協作 | [前往](https://github.com/maxtsai01/agent-orchestrator) |
+| 📱 FB Auto Register | FB 帳號自動註冊 | [前往](https://github.com/maxtsai01/fb-auto-register) |
+| 🐰 FollowBunny | 社團自動互動 | [前往](https://github.com/maxtsai01/followbunny-public) |
+| 🌈 Rainbow Life | 彩虹人生性格分析 | [前往](https://github.com/maxtsai01/rainbow-life) |
+| 🖼️ AI Image Studio | 智能圖片處理 | [前往](https://github.com/maxtsai01/ai-image-studio) |
 
 ---
 
-**🦞 想要完整版？**
+## 💰 定價
 
-- 📱 IG 私訊：[@10000allison](https://instagram.com/10000allison)
-- 📩 Email：max@ctmaxs.com
-- 💬 LINE 官方：[加入 Emily 專案經理](https://lin.ee/8qvJppD)
+| 方案 | 價格 | 內容 |
+|------|------|------|
+| 免費試閱 | NT$0 | 五卷目錄 + 核心概念 |
+| 完整兵法 | 洽詢 | Private Core 完整 30,000+ 字 |
 
-**⭐ 覺得有用？給個 Star 支持龍蝦軍團！**
+👉 [立即免費領取](https://lumaint.1shop-app.com/lobster-store)
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,4,8&height=100&section=footer" width="100%"/>
+</p>
+
+<p align="center">
+  Created by <a href="https://instagram.com/10000allison">Allison</a> | CTMaxs 龍蝦自動化團隊
+</p>
